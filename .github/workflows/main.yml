@@ -1,7 +1,7 @@
 name: vprofile actions
 on: workflow_dispatch
 env: 
-  aAWS_REGION: us-east-1
+  AWS_REGION: us-east-1
   ECR_REPOSITORY: vprofileapp
   EKS_CLUSTER: vprofile-eks
 
